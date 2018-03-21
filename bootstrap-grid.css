@@ -20,6 +20,14 @@ html {
   box-sizing: inherit;
 }
 
+.header_title {
+font-weight: bold 18px;
+}
+
+.header_subtitle {
+  font-style: italic;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -88,6 +96,7 @@ html {
   margin-left: -15px;
 
 }
+
 
 .no-gutters {
   margin-right: 0;
@@ -385,12 +394,17 @@ html {
     max-width: 15%;
     box-sizing: border-box;
     padding: 20px 0px 20px 0px;
-    background-color: #acb5c4;
     border-style: solid;
     border-width: medium;
     border-color: grey;
     margin: auto;
   }
+
+  .button_img {
+    object-fit: contain;
+  }
+
+
   .col-sm-4 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.333333%;
