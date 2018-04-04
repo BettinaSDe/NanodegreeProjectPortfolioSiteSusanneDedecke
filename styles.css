@@ -17,6 +17,23 @@ html {
   box-sizing: inherit;
 }
 
+
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-height: 115px;
+  margin: auto;
+  padding: 0.2em;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 0.5em;
+  border-color: grey;
+}
+
 .header_box1 {
 width: auto;
 }
@@ -45,24 +62,6 @@ font-weight: bold;
 
 
 
-
-.row1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  max-height: 115px;
-  margin: auto;
-  padding: 0.2em;
-  box-sizing: border-box;
-  border-style: solid;
-  border-radius: 0.5em;
-  border-color: grey;
-      }
-
-
-
 .row2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,7 +71,6 @@ font-weight: bold;
   padding: 0 10px 20px 10px;
   margin-right: -15px;
   margin-left: -15px;
-
 }
 
 
@@ -81,7 +79,7 @@ font-weight: bold;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     text-align: center;
-    border-radius: 2em;
+    border-radius: 1em;
     max-width: 15%;
     box-sizing: border-box;
     padding: 20px 0 20px 0;
