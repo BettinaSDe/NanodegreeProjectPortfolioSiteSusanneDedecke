@@ -7,40 +7,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Susanne Dedecke web and content developer</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
   </head>
   <body>
 
-  <div class="page-wrap">
-
-  <div class="row1">
-    <div class="header_box1">
-      <img class="header_logo" src="images/pexels-photo-185576.jpeg" height="100" alt="Susanne Dedecke">
-    </div>
-        <div class="header_box2">
-          <h1 class="header_title">
-          Portfolio Susanne Dedecke
-        </h1>
-        <h2 class="header_subtitle">
-              Content drives design drives content
-            </h2>
-          </div>
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+        <a href="#" class="navbar-brand">Portfolio Susanne Dedecke web and content developer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
         </div>
 
-
-  <div class="container">
-    <img src="images/pexels-photo-316465.jpeg" alt="Creative web and content development Susanne Dedecke"/>
-  </div>
+    </nav>
 
 
+    <div class="jumbotron jumbotron-fluid p-4">
+        <div class="container">
+            <h1 class="display-3">Portfolio Susanne Dedecke</h1>
+            <h2 class="display-3">Content drives design drives content</h1>
+            <p class="lead">Web and Social Media</p>
+        </div>
+    </div>
+    <div class="container" style="margin-top:30px;">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+               <div class="card">
+                    <img class="card-img-top" alt="Card header image" src="images/ContentMarketing.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Content Marketing</h5>
+                        <p class="card-text">content drives design</p>
+                        <a href="https://www.nexmarket.ch/" class="btn btn-info">See agency</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+               <div class="card">
+                    <img class="card-img-top" alt="Card header image" src="images/Udacity_logo.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Web development</h5>
+                        <p class="card-text">design drives content</p>
+                        <a href="https://www.udacity.com" class="btn btn-info">Udacity</a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="row2">
-     <div class="col-sm-3"><img src="images/ContentMarketing.png"/><a href="https://www.nexmarket.ch/"/>Content Marketing</div>
-     <div class="col-sm-3"><a href="https://www.udacity.com"/>Web Development</div>
-     <div class="col-sm-3"><img src="images/SocialMedia.png"/><a href="https://twitter.com/bettinasde"/>Social Media</div>
-     <div class="col-sm-3"><a href="https://github.com/BettinaSDe/"/>Github</div>
-   </div>
+            <div class="col-sm-6 col-lg-3">
+               <div class="card">
+                    <img class="card-img-top" alt="Card header image" src="images/SocialMedia.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Social Media</h5>
+                        <p class="card-text">people drive leads</p>
+                        <a href="https://twitter.com/bettinasde" class="btn btn-info">Twitter</a>
+                    </div>
+                </div>
+            </div>
 
- </div>
-      </body>
-</html>
+            <div class="col-sm-6 col-lg-3">
+               <div class="card">
+                    <img class="card-img-top" alt="Card header image" src="images/Octocat.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Github</h5>
+                        <p class="card-text">my repositories</p>
+                        <a href="https://github.com/BettinaSDe/" class="btn btn-info">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-5">
+            <div class="col-sm-12 col-md-6 offset-md-3">
+                <h3>Contact me</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="password" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </body>
+    </html>
